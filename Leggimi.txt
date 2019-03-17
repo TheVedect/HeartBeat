@@ -1,0 +1,10 @@
+In questo piccolo programma ho provato a formare un Cuore e a farne un plot utilizzando GNUplot.
+Come è possibile notare dal codice, esso non è ottimizzato, in quanto non ne ho avuto il bisogno.
+Nel programma, per poter creare il Cuore, ho inizializzato le coordinate x ed y, attraverso una parametrizzazione di un parametro
+che compiesse un angolo giro completo. Il doppio ciclo for posso spiegarlo sapendo che ad ogni set di dati corrisponde un singolo
+fotogramma della sequenza, dunque sono dovuto ripartire dall'inizio per ogni fotogramma, fino a completare tutto il Cuore.
+Nel file che ho salvato nel programma, dato che GNUplot considera come set di dati quelli separati da due linee vuote,
+ho fatto proprio così.
+Per far pulsare il Cuore, ho introdotto un ulteriore parametro c che mi permettesse di ridurre o aumentare la grandezza del Cuore
+ad ogni fotogramma.
+Non è stato eccessivamente difficile.
